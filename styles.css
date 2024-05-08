@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+.board {
+  display: grid;
+  grid-template-columns: repeat(20, 40px); /* Adjust grid columns to fit 800 boxes */
+  gap: 1px; /* Adjust gap between boxes */
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc; /* Default background color */
+  transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+.box:hover {
+  background-color: #f00; /* Change background color on hover */
+}
