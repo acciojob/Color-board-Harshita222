@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Revert color after 1 second
             setTimeout(() => {
-                square.style.backgroundColor = 'rgb(230, 230, 250)'; // Lavender
+                square.style.backgroundColor = 'rgb(29, 29, 29)'; // Lavender
             }, 1000);
         });
     });
