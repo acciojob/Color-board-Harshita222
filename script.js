@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     squares.forEach(square => {
         square.addEventListener('mouseover', function() {
             // Change background color to Coffee
-            square.style.backgroundColor = '#6F4E37';
+            square.style.backgroundColor = 'rgb(29, 29, 29);
 
             // Revert color after 1 second
             setTimeout(() => {
